@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: "src/assets/uploads/"
-public_folder: "/assets/static/uploads"
+public_folder: "/assets/static"
 
 collections:
   - name: "data"
@@ -149,7 +149,7 @@ collections:
         fields:
           - {
               label: Galerie,
-              name: gallery,
+              name: data,
               widget: list,
               fields:
                 [

@@ -12,7 +12,7 @@
       </div>
       <div id="galleryContent" class="flex overflow-x-scroll bg-gray-300">
         <div
-          v-for="(image,index) in gallery"
+          v-for="(image,index) in gallery.data"
           :key="image.index"
           @click="showModal = true, selectedImageID = index"
           class="flex-0-auto rounded-lg shadow-md mr-2 cursor-pointer"
