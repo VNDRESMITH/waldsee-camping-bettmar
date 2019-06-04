@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: master
 
 media_folder: "/src/assets/uploads"
@@ -20,12 +20,147 @@ collections:
         label: "Unsere Leistungen"
         file: "src/data/services.yml"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Bilder, name: images, widget: image }
-          - { label: Beschreibung, name: description, widget: string }
+          [
+            {
+              label: Stellplätze,
+              name: stellplaetze,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Zeltplätze,
+              name: zeltplaetze,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Ferienhäuser,
+              name: ferienhaeuser,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Jahresplätze,
+              name: jahresplaetze,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Spielplatz,
+              name: spielplatz,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Sanitäranlagen,
+              name: sanitaeranlagen,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: See,
+              name: see,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Grillen,
+              name: grillen,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Hunde,
+              name: hunde,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Nahrverkehr,
+              name: nahrverkehr,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+            {
+              label: Service,
+              name: service,
+              widget: object,
+              fields:
+                [
+                  { label: Titel, name: title, widget: string },
+                  { label: Images, name: images, widget: image },
+                  { label: Beschreibung, name: description, widget: text },
+                ],
+            },
+          ]
       - name: "gallery"
         label: "Galerie"
         file: "src/data/gallery.yml"
         fields:
-          - { label: Bild, name: file, widget: image }
-          - { label: Beschreibung, name: description, widget: string }
+          - {
+              label: Galerie,
+              name: gallery,
+              widget: list,
+              fields:
+                [
+                  { label: Bild, name: file, widget: image },
+                  { label: Beschreibung, name: description, widget: string },
+                ],
+            }
+      - name: "site_infos"
+        label: Seiten Infos
+        file: "src/data/site-infos.yml"
+        fileds:
+          - { label: Title, name: title, widget: string }
+          - { label: Besitzer, name: owner, widget: string }
+          - { label: Adresse, name: adress, widget: string }
