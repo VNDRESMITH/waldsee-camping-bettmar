@@ -32,7 +32,10 @@
         </div>
         <div class="flex flex-wrap justify-center">
           <div v-for="image in images" :key="image.index">
-            <g-image :src="require('~/assets/images/'+image+'')" width="500" class="p-2"/>
+            <g-image
+              :src="require('!!assets-loader?width=500!~/../static/uploads/'+image+'')"
+              class="p-2"
+            />
           </div>
         </div>
       </div>
