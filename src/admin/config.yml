@@ -158,9 +158,9 @@ collections:
                 ],
             }
       - name: "site_infos"
-        label: Seiten Infos
+        label: "Seiten Infos"
         file: "src/data/site-infos.yml"
-        fileds:
+        fields:
           - { label: Title, name: title, widget: string }
           - { label: Besitzer, name: owner, widget: string }
           - { label: Adresse, name: adress, widget: string }
