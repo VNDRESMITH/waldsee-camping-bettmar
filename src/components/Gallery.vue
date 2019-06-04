@@ -18,7 +18,7 @@
           class="flex-0-auto rounded-lg shadow-md mr-2 cursor-pointer"
         >
           <g-image
-            :src="require('!!assets-loader?width=400!~/assets/uploads/'+image.file)"
+            :src="require('!!assets-loader?width=400!~/../static/uploads/'+image.file)"
             class="h-64"
           />
         </div>

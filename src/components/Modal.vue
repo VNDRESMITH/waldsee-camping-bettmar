@@ -51,7 +51,7 @@
 
     <div class="h-full flex flex-col justify-center items-center">
       <g-image
-        :src="require('~/assets/uploads/'+gallery[arrImageID].file+'')"
+        :src="require('~/assets/'+gallery[arrImageID].file+'')"
         class="max-h-80 object-contain"
       />
       <div
