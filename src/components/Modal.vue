@@ -51,13 +51,13 @@
 
     <div class="h-full flex flex-col justify-center items-center">
       <g-image
-        :src="require('~/assets/'+gallery[arrImageID].file+'')"
+        :src="require('!!assets-loader!~/../static/uploads/'+gallery.data[arrImageID].file+'')"
         class="max-h-80 object-contain"
       />
       <div
-        v-if="gallery[arrImageID].description"
+        v-if="gallery.data[arrImageID].description"
         class="flex justify-center m-2 bg-gray-400 text-xl tracking-widest rounded-full px-4 py-1"
-      >{{gallery[arrImageID].description}}</div>
+      >{{gallery.data[arrImageID].description}}</div>
       <div class="flex flex-wrap justify-center items-center">
         <button
           type="button"
@@ -134,7 +134,8 @@ export default {
   mounted() {
     document.body.classList.add("overflow-hidden");
     window.addEventListener("keyup", this.keyup);
-    if (this.modalFormat == "gallery") this.imagesCount = this.gallery.length;
+    if (this.modalFormat == "gallery")
+      this.imagesCount = this.gallery.data.length;
   },
   destroyed() {
     document.body.classList.remove("overflow-hidden");

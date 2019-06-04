@@ -9,7 +9,7 @@
         <div>
           <g-image
             v-if="about.image"
-            :src="require('~/assets/images/'+about.image+'')"
+            :src="require('~/../static/uploads/'+about.image+'')"
             width="400"
             class="rounded-lg shadow-lg"
           />
