@@ -1,4 +1,4 @@
-import plugin_project_6 from "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar_org/gridsome.client.js"
+import plugin_project_6 from "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/gridsome.client.js"
 
 export default [
   {

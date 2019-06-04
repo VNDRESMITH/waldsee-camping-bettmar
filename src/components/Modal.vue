@@ -50,7 +50,10 @@
     </div>
 
     <div class="h-full flex flex-col justify-center items-center">
-      <g-image :src="'/uploads/'+gallery[arrImageID].file" class="max-h-80 object-contain"/>
+      <g-image
+        :src="require('~/assets/uploads/'+gallery[arrImageID].file+'')"
+        class="max-h-80 object-contain"
+      />
       <div
         v-if="gallery[arrImageID].description"
         class="flex justify-center m-2 bg-gray-400 text-xl tracking-widest rounded-full px-4 py-1"
