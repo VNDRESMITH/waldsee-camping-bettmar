@@ -1,0 +1,78 @@
+stellplaetze:
+  title: Stellplätze
+  images: ["IMG_0005.jpg"]
+  description:
+    Sie sind mit dem Wohnwagen oder Wohnmobil jederzeit herzlich willkommen.
+    <br>Wir halten hierfür für Sie große Rasenflächen ohne parzellierte Einteilung bereit. Es gibt zentrale Wasser- und Stromsäulen (0,50€ pro kWh) auf den Freiflächen.
+    Zur Entleerung Ihrer Chemietoilette gibt es zwei Entsorgungsstationen.
+    <br>Wohnmobil (auch PKWs & Busse in denen geschlafen wird zählen als Wohnmobile)
+    <br>5,50€ p.N. / Wohnwagen 5,00€ p.N./ PKW 2€ p.N.
+zeltplaetze:
+  title: Zeltplätze
+  images: ["IMG_0006.jpg", "IMG_0060.jpg"]
+  description: Wir würden uns freuen Sie mit Zelt begrüßen zu können. Wir haben mehrere schöne Zeltplätze unter anderem auch in direkter Wassernähe. Es gibt zentrale Wasser- und Stromsäulen (0,50€ pro kWh) auf den Freiflächen.<br> Zelt 3,80€ p.N. / Gruppenzelt 8,00€ (ab 5 Pers.) p.N.
+ferienhaeuser:
+  title: Ferienhäuser
+  images: []
+  description: Momentan sind keine Ferienhäuser für Touristikgäste verfügbar.
+jahresplaetze:
+  title: Jahresplätze
+  images: ["SAM_0233.jpg", "SAM_0232.jpg"]
+  description:
+    Wir bieten Ihnen auf unserem Waldsee Campingplatz Bettmar sowohl klassische Wohnwagen/ Wohnmobilplätze an als auch Plätze für feste Wochenendhäuser.<br>
+    Die Plätze sind vergleichsweise groß und bieten genügend Platz auch für große Wohnwagen oder Wohnmobile.<br>
+    Wohnwagen/ Wohnmobilplätze ab 600€ im Jahr zzgl. Nebenkosten.<br>
+    Wochenendhausplätze (ohne Haus) ab 900€ im Jahr zzgl. Nebenkosten.
+spielplatz:
+  title: Spielplatz
+  images: ["IMG_0004.jpg"]
+  description:
+    Für die sportliche Betätigung haben wir z.B. eine Tischtennisplatte sowie zwei Fussballtore auf dem Platz.<br>
+    Spiele wie z.B. Federball oder Tischtennisschläger können ausgeliehen werden. Für unsere jungen Gäste haben wir eine Sandkiste mit großem Schaufelbagger.
+sanitaeranlagen:
+  title: Sanitäranlagen
+  images:
+    [
+      "IMG_0016.jpg",
+      "IMG_0014.jpg",
+      "IMG_0011.jpg",
+      "IMG_0012.jpg",
+      "IMG_0013.jpg",
+    ]
+  description:
+    Unsere Sanitäranlagen befinden sich im vorderen Bereich des Campingplatzes, mit ausreichend WC`s,Duschen (3min=0,50€) und Waschgelegenheiten.<br>
+    Des Weiteren gibt es eine Waschmaschine (3€ pro Waschgang) sowie einen Geschirrabwasch.<br>
+    Im hinteren Bereich des Campingplatzes gibt es zusätzlich noch eine kleine „Waldtoilette“.
+see:
+  title: See
+  images: ["SAM_0215.jpg"]
+  description:
+    Die Wasserfläche umfasst ca. 12.000 Quadratmeter und lädt ein zu verschiedenen Aktivitäten.<br>
+    Für das Angeln bringen Sie einen Nachweis über Ihre abgelegte Fischprüfung mit. Es gibt einige Angelplätze, an denen das Angeln erlaubt ist.<br>
+    Angeln pro Rute und Tag 3€. Nachtangeln und Anfüttern sowie das Auslegen von Reusen ist nicht gestattet. Es gibt keinen Angelverleih!<br>
+    Zum Baden gibt es einige Stellen mit Sand um besser ins Wasser zu gelangen. Das Baden ist auf eigene Gefahr.<br>
+    Kleine aufblasbare Ruderboote dürfen mitgebracht werden.<br>
+    Angeln und Baden nur in Kombination mit mind. einer Übernachtung möglich. Tagesbadekarten gibt es beim <a href="https://www.naturfreibadvechelde-bettmar.de/">Naturfreibad Bettmar</a>.
+grillen:
+  title: Grillen & offenes Feuer
+  images: ["Grill-und-Feuerstelle.jpg"]
+  description: Grillen ist in der Regel auf dem ganzen Campingplatz gestattet (Gas & Holzkohle). Für offenes Feuer gibt es am See eine Grill-und Feuerstelle, welche nach vorheriger Anmeldung benutzt werden kann. <br> Die Feuerstelle ist für alle da, eine Reservierung hierfür ist nicht möglich. Holz ist selbst zu besorgen.
+hunde:
+  title: Hunde
+  images: ["SAM_0228.jpg"]
+  description: Ihre treuen Vierbeiner sind natürlich genauso willkommen wie Sie. Im Bettmarer Holz sowie in der umliegenden Feldmark kann man hervorragend Gassi gehen. Eine Hundebadestelle ist auch vorhanden (Bitte denken Sie an eine Langlaufleine). Auf dem gesamten Campingplatzgelände sowie im Naturschutzgebiet ist Leinenpflicht. Hund 1€ p.N.
+nahverkehr:
+  title: Nahverkehr Bus/Bahn
+  images: []
+  description:
+    Die nächst größeren Städte sind im Westen die Stadt Peine (ca. 12km, nordöstlich gelegen ist Vechelde (ca. 3km) und in gleicher Richtung die Löwenstadt Braunschweig (ca. 13 km),
+    südlich vom Campingplatz befindet sich die Universitätsstadt Hildesheim (ca. 29km). Vom Vechelder Bahnhof fährt jede halbe Stunde ein Zug Richtung Braunschweig und Hannover.
+    Den Bahnhof erreichen Sie per Bus (nächste Haltestelle 900Meter), Taxi oder per Rad/zu Fuß (3km).
+service:
+  title: Service
+  images: ["IMG_0003.jpg", "IMG_0015.jpg"]
+  description:
+    Sie können bei uns Gasflaschen kaufen/tauschen (grau 11Kg/grau 5kg) sowie Getränke und kleine verpackte Snacks und Campingbedarf erwerben.<br>
+    Sie möchten morgens Brötchen an Ihr Zelt/Ihren Wohnwagen/Ihr Wohnmobil geliefert bekommen? Fragen Sie vor Ort bei Ihrer Anmeldung direkt nach.<br>
+    Für den großen Hunger gibt es des Weiteren diverse Lieferdienste, welche Ihnen z.B. Ihre Pizza direkt an den Campingplatz liefern.<br>
+    Ein kostenloser WLAN Hotspot befindet sich im Eingangsbereich des Campingplatzes.
