@@ -55,10 +55,10 @@
       </button>
     </div>
 
-    <div class="h-full max-h-85 flex flex-col justify-center items-center">
+    <div class="h-full flex flex-col justify-center items-center">
       <g-image
         :src="require('!!assets-loader!~/../static/uploads/'+gallery.data[arrImageID].file+'')"
-        class="max-h-80 object-contain"
+        class="max-h-85 object-contain"
       />
       <div
         v-if="gallery.data[arrImageID].description"

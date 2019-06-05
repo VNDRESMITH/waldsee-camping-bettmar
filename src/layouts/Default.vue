@@ -93,7 +93,7 @@
               href="/verantwortung.pdf"
             >Einverständniserklärung (Gruppe)</a>
           </div>
-          <p>Copyright 2019. Alle Rechte vorbehalten.</p>
+          <p>&copy; {{ new Date().getFullYear() }} Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>
