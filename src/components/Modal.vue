@@ -3,7 +3,7 @@
     class="flex justify-center items-center fixed inset-0 z-50 w-screen h-screen bg-gray-50"
     v-if="modalFormat == 'blank'"
   >
-    <div class="flex flex-col max-w-6xl max-h-80 bg-green-100 rounded-lg shadow-lg">
+    <div class="flex flex-col max-w-6xl max-h-70 bg-green-100 rounded-lg shadow-lg">
       <div class="text-right">
         <button @click="$emit('close')" class="p-4">
           <font-awesome :icon="['fas', 'times']" size="2x"/>
@@ -19,7 +19,7 @@
     class="flex justify-center items-center fixed inset-0 z-50 w-screen h-screen bg-gray-50"
     v-else-if="modalFormat == 'services'"
   >
-    <div class="flex flex-col max-w-6xl max-h-80 bg-green-100 rounded-lg shadow-lg pt-1 pb-4">
+    <div class="flex flex-col max-w-6xl max-h-85 bg-green-100 rounded-lg shadow-lg pt-1 pb-4">
       <div class="text-right">
         <button @click="$emit('close')" class="pr-3">
           <font-awesome :icon="['fas', 'times']" size="2x"/>
@@ -47,19 +47,22 @@
     v-else-if="modalFormat == 'gallery'"
   >
     <div class="relative text-right">
-      <button @click="$emit('close')" class="p-4 absolute top-0 right-0">
-        <font-awesome :icon="['fas', 'times']" size="2x"/>
+      <button
+        @click="$emit('close')"
+        class="h-8 w-8 flex justify-center m-2 absolute top-0 right-0 bg-gray-50 rounded-full text-gray-400"
+      >
+        <font-awesome :icon="['fas', 'times']" size="1x"/>
       </button>
     </div>
 
-    <div class="h-full flex flex-col justify-center items-center">
+    <div class="h-full max-h-85 flex flex-col justify-center items-center">
       <g-image
         :src="require('!!assets-loader!~/../static/uploads/'+gallery.data[arrImageID].file+'')"
         class="max-h-80 object-contain"
       />
       <div
         v-if="gallery.data[arrImageID].description"
-        class="flex justify-center m-2 bg-gray-400 text-xl tracking-widest rounded-full px-4 py-1"
+        class="flex justify-center m-2 bg-gray-400 text-lg tracking-widest rounded-full px-4 py-1"
       >{{gallery.data[arrImageID].description}}</div>
       <div class="flex flex-wrap justify-center items-center">
         <button

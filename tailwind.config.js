@@ -64,8 +64,8 @@ module.exports = {
         ".flex-0-auto": {
           flex: "0 0 auto"
         },
-        ".max-h-80": {
-          "max-height": "80%"
+        ".max-h-85": {
+          "max-height": "85%"
         }
       };
 
