@@ -8,13 +8,14 @@ public_folder: "/uploads"
 collections:
   - label: "Featured Image"
     name: "thumbnailx"
-    fields:
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
-            multiple: true
+    folder:
+      fields:
+        - label: "Featured Image"
+          name: "thumbnail"
+          widget: "image"
+          media_library:
+            config:
+              multiple: true
   - name: "data"
     label: "Data"
     files:
