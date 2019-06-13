@@ -1,33 +1,47 @@
 data:
-  - file: gallery_0156.jpg
-    description: Die Sonne sagt auf Wiedersehen.
-  - file: gallery_0007.jpg
-    description:
-  - file: gallery_0008.jpg
-    description:
-  - file: gallery_0015.jpg
-    description:
-  - file: gallery_0021.jpg
-    description:
-  - file: gallery_0022.jpg
-    description:
-  - file: gallery_0023.jpg
-    description:
-  - file: gallery_0030.jpg
-    description:
-  - file: gallery_0031.jpg
-    description:
-  - file: gallery_0053.jpg
-    description:
-  - file: gallery_0057.jpg
-    description:
-  - file: gallery_0061.jpg
-    description:
-  - file: gallery_0063.jpg
-    description:
-  - file: gallery_0065.jpg
-    description:
-  - file: gallery_0069.jpg
-    description:
-  - file: gallery_0451.jpg
-    description:
+  - description: .
+    file: gallery_0007.jpg
+  - description: Die Sonne sagt auf Wiedersehen.
+    file: gallery_0156.jpg
+  - description: .
+    file: gallery_0008.jpg
+  - description: .
+    file: gallery_0015.jpg
+  - description: Naturschutzgebiet Bettmarer Holz
+    file: gallery_0021.jpg
+  - description: Naturschutzgebiet Bettmarer Holz
+    file: gallery_0022.jpg
+  - description: Naturschutzgebiet Bettmarer Holz
+    file: gallery_0023.jpg
+  - description: Naturschutzgebiet Bettmarer Holz
+    file: gallery_0030.jpg
+  - description: .
+    file: gallery_0031.jpg
+  - description: Wer genau hinsieht entdeckt vielleicht auch einen Fuchs.
+    file: gallery_0053.jpg
+  - description: 'Herr und Frau Langohr? '
+    file: gallery_0057.jpg
+  - description: .
+    file: gallery_0061.jpg
+  - description: .
+    file: gallery_0063.jpg
+  - description: Ev. luth. Dorfkirche Bettmar aus dem 13. Jahrhundert
+    file: gallery_0065.jpg
+  - description: 'Natur ganz nah! Ein Blässhuhn am brüten. '
+    file: gallery_0069.jpg
+  - description: .
+    file: gallery_0451.jpg
+  - description: .
+    file: /uploads/img_0073.jpg
+  - description: Pfadfinder Zeltlager 2019
+    file: /uploads/img_0077.jpg
+  - description: Pfadfinder Zeltlager 2019
+    file: /uploads/img_0081.jpg
+  - description: Pfadfinder Zeltlager 2019
+    file: /uploads/img_0084.jpg
+  - description: Pfadfinder Zeltlager 2019
+    file: /uploads/img_0088.jpg
+  - description: Pfadfinder Zeltlager 2019
+    file: /uploads/img_0087.jpg
+  - description: .
+    file: /uploads/img_0091.jpg
