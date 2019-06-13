@@ -153,7 +153,13 @@ collections:
               widget: list,
               fields:
                 [
-                  { label: Bild, name: file, widget: image },
+                  { 
+                  label: Bilder, 
+                  name: file, 
+                  widget: image, 
+                  media_library: 
+                    config: 
+                      multiple: true },
                   {
                     label: Beschreibung,
                     name: description,
