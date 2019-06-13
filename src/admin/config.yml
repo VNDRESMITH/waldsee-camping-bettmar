@@ -157,9 +157,7 @@ collections:
                   label: Bilder, 
                   name: file, 
                   widget: image, 
-                  media_library: 
-                    config: 
-                      multiple: true },
+                  media_library: {config: {multiple: true }},
                   {
                     label: Beschreibung,
                     name: description,
