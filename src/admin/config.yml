@@ -83,12 +83,7 @@ collections:
               fields:
                 [
                   { label: Titel, name: title, widget: string },
-                  {
-                    label: Images,
-                    name: images,
-                    widget: image,
-                    media_library: { config: { multiple: true } },
-                  },
+                  { label: Images, name: images, widget: file },
                   { label: Beschreibung, name: description, widget: text },
                 ],
             },
