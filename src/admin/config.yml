@@ -6,6 +6,12 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+  - label: "Featured Image"
+    name: "thumbnail"
+    widget: "image"
+    media_library:
+      config:
+        multiple: true
   - name: "data"
     label: "Data"
     files:
@@ -153,12 +159,7 @@ collections:
               widget: list,
               fields:
                 [
-                  {
-                    label: Bilder,
-                    name: file,
-                    widget: image,
-                    allow_multiple: true,
-                  },
+                  { label: Bilder, name: file, widget: image },
                   {
                     label: Beschreibung,
                     name: description,
@@ -174,9 +175,3 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Besitzer, name: owner, widget: string }
           - { label: Adresse, name: adress, widget: string }
-          - label: "Featured Image"
-            name: "thumbnail"
-            widget: "image"
-            media_library:
-              config:
-                multiple: true
