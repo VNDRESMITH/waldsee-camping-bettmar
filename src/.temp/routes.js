@@ -7,9 +7,8 @@ export default [
     }
   },
   {
-    name: "home",
-    path: "/",
-    component: () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Index.vue"),
+    path: "/about",
+    component: () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/About.vue"),
     meta: {
       data: true
     }
@@ -22,8 +21,9 @@ export default [
     }
   },
   {
-    path: "/about",
-    component: () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/About.vue"),
+    name: "home",
+    path: "/",
+    component: () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Index.vue"),
     meta: {
       data: true
     }
