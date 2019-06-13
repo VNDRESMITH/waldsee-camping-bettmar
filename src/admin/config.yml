@@ -8,7 +8,7 @@ public_folder: "/uploads"
 collections:
   - label: "Featured Image"
     name: "thumbnailx"
-    folder:
+    fields:
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"
