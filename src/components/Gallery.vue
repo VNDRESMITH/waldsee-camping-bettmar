@@ -17,10 +17,7 @@
           @click="showModal = true, selectedImageID = index"
           class="flex-0-auto rounded-lg shadow-md mr-2 cursor-pointer"
         >
-          <g-image
-            :src="require('!!assets-loader?width=400!~/../static/'+image.file)"
-            class="h-64"
-          />
+          <g-image :src="require('!!assets-loader?width=400!~/../static'+image.file)" class="h-64"/>
         </div>
       </div>
       <div class="flex items-center">

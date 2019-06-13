@@ -1,15 +1,15 @@
 export default [
   {
-    name: "home",
-    path: "/",
-    component: () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Index.vue"),
+    path: "/imprint",
+    component: () => import(/* webpackChunkName: "page--src--pages--imprint-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Imprint.vue"),
     meta: {
       data: true
     }
   },
   {
-    path: "/imprint",
-    component: () => import(/* webpackChunkName: "page--src--pages--imprint-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Imprint.vue"),
+    name: "home",
+    path: "/",
+    component: () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/vndresmith/BLVCKSMITH/Workspace/waldsee-camping-bettmar/src/pages/Index.vue"),
     meta: {
       data: true
     }
