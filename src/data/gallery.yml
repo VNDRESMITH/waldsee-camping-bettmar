@@ -1,5 +1,5 @@
 data:
-  - description: .
+  - description: ''
     file: /uploads/gallery_0007.jpg
   - description: Die Sonne sagt auf Wiedersehen.
     file: /uploads/gallery_0156.jpg
@@ -19,7 +19,7 @@ data:
     file: /uploads/gallery_0031.jpg
   - description: Wer genau hinsieht entdeckt vielleicht auch einen Fuchs.
     file: /uploads/gallery_0053.jpg
-  - description: "Herr und Frau Langohr? "
+  - description: 'Herr und Frau Langohr? '
     file: /uploads/gallery_0057.jpg
   - description: .
     file: /uploads/gallery_0061.jpg
@@ -27,7 +27,7 @@ data:
     file: /uploads/gallery_0063.jpg
   - description: Ev. luth. Dorfkirche Bettmar aus dem 13. Jahrhundert
     file: /uploads/gallery_0065.jpg
-  - description: "Natur ganz nah! Ein Blässhuhn am brüten. "
+  - description: 'Natur ganz nah! Ein Blässhuhn am brüten. '
     file: /uploads/gallery_0069.jpg
   - description: .
     file: /uploads/gallery_0451.jpg
