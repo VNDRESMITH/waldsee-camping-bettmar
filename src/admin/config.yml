@@ -154,7 +154,12 @@ collections:
               fields:
                 [
                   { label: Bild, name: file, widget: image },
-                  { label: Beschreibung, name: description, widget: string },
+                  {
+                    label: Beschreibung,
+                    name: description,
+                    widget: string,
+                    required: false,
+                  },
                 ],
             }
       - name: "site_infos"
