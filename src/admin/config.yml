@@ -5,6 +5,10 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
+media_library:
+  config:
+    multiple: true
+
 collections:
   - name: "data"
     label: "Data"
@@ -153,12 +157,7 @@ collections:
               widget: list,
               fields:
                 [
-                  {
-                    label: Bilder,
-                    name: file,
-                    widget: image,
-                    media_library: { config: { multiple: true } },
-                  },
+                  { label: Bilder, name: file, widget: image },
                   {
                     label: Beschreibung,
                     name: description,
