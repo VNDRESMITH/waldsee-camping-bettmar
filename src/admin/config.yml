@@ -174,9 +174,9 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Besitzer, name: owner, widget: string }
           - { label: Adresse, name: adress, widget: string }
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
-            multiple: true
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            media_library:
+              config:
+                multiple: true
