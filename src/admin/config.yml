@@ -6,16 +6,6 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - label: "Featured Image"
-    name: "thumbnailx"
-    folder: "test"
-    fields:
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
-            multiple: true
   - name: "data"
     label: "Data"
     files:
@@ -93,7 +83,12 @@ collections:
               fields:
                 [
                   { label: Titel, name: title, widget: string },
-                  { label: Images, name: images, widget: image },
+                  {
+                    label: Images,
+                    name: images,
+                    widget: image,
+                    { media_library: { config: { multiple: true } } },
+                  },
                   { label: Beschreibung, name: description, widget: text },
                 ],
             },
