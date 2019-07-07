@@ -3,10 +3,10 @@
     class="flex justify-center items-center fixed inset-0 z-50 w-screen h-screen bg-gray-50"
     v-if="modalFormat == 'blank'"
   >
-    <div class="flex flex-col max-w-6xl max-h-70 bg-green-100 rounded-lg shadow-lg">
+    <div class="flex flex-col max-w-6xl max-h-85 bg-green-100 rounded-lg shadow-lg">
       <div class="text-right">
         <button @click="$emit('close')" class="p-4">
-          <font-awesome :icon="['fas', 'times']" size="2x"/>
+          <font-awesome :icon="['fas', 'times']" size="2x" />
         </button>
       </div>
       <div class="overflow-y-auto">
@@ -22,7 +22,7 @@
     <div class="flex flex-col max-w-6xl max-h-85 bg-green-100 rounded-lg shadow-lg pt-1 pb-4">
       <div class="text-right">
         <button @click="$emit('close')" class="pr-3">
-          <font-awesome :icon="['fas', 'times']" size="2x"/>
+          <font-awesome :icon="['fas', 'times']" size="2x" />
         </button>
       </div>
       <div class="overflow-y-auto">
@@ -51,7 +51,7 @@
         @click="$emit('close')"
         class="h-8 w-8 flex justify-center m-2 absolute top-0 right-0 bg-gray-50 rounded-full text-gray-400"
       >
-        <font-awesome :icon="['fas', 'times']" size="1x"/>
+        <font-awesome :icon="['fas', 'times']" size="1x" />
       </button>
     </div>
 
@@ -70,7 +70,7 @@
           :class="[{'cursor-not-allowed opacity-50' : arrImageID == 0},'w-10 h-10 flex justify-center items-center bg-gray-300 rounded-full p-2 m-2']"
           @click="previousImage()"
         >
-          <font-awesome :icon="['fas', 'chevron-left']" size="1x"/>
+          <font-awesome :icon="['fas', 'chevron-left']" size="1x" />
         </button>
         <!-- <span
           v-for="(image,index) in gallery"
@@ -87,7 +87,7 @@
           :class="[{'cursor-not-allowed opacity-50' : showActiveImageID >= imagesCount},'w-10 h-10 flex justify-center items-center bg-gray-300 rounded-full p-2 m-2']"
           @click="nextImage()"
         >
-          <font-awesome :icon="['fas', 'chevron-right']" size="1x"/>
+          <font-awesome :icon="['fas', 'chevron-right']" size="1x" />
         </button>
       </div>
     </div>

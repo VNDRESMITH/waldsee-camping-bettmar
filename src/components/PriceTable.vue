@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col p-8 text-lg">
     <h1 class="text-2xl">Preisliste</h1>
-    <br>
+    <br />
     <h2>
       <strong>Preisliste Camping (Angaben pro Nacht)</strong>
     </h2>
@@ -51,13 +51,13 @@
         <tr>
           <td align="left">
             &nbsp;
-            <br>ab 5 Übernachtungen
-            <br>&nbsp;
+            <br />ab 5 Übernachtungen
+            <br />&nbsp;
           </td>
           <td align="right">
             &nbsp;
-            <br>10% Rabatt
-            <br>&nbsp;
+            <br />10% Rabatt
+            <br />&nbsp;
           </td>
         </tr>
         <tr>
@@ -70,7 +70,7 @@
         </tr>
       </tbody>
     </table>
-    <br>
+    <br />
     <h2>
       <strong>Preisliste Jahresplätze</strong>
     </h2>
@@ -106,7 +106,7 @@
     </table>
 
     <p>Die Preise gelten bei jährlicher Zahlung im Voraus.</p>
-    <br>
+    <br />
     <h2>
       <strong>Preisliste Angeln</strong>
     </h2>
