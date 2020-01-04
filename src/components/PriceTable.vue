@@ -22,7 +22,7 @@
         </tr>
         <tr>
           <td align="left">Zelt</td>
-          <td align="right">3,80 €</td>
+          <td align="right">4,00 €</td>
         </tr>
         <tr>
           <td align="left">Gruppenzelt (ab 5 Personen)</td>
@@ -30,15 +30,15 @@
         </tr>
         <tr>
           <td align="left">Person</td>
-          <td align="right">4,30 €</td>
+          <td align="right">4,50 €</td>
         </tr>
         <tr>
           <td align="left">Kind (2-12 Jahre)</td>
-          <td align="right">3,10 €</td>
+          <td align="right">3,50 €</td>
         </tr>
         <tr>
           <td align="left">Hund</td>
-          <td align="right">1,00 €</td>
+          <td align="right">2,00 €</td>
         </tr>
         <tr>
           <td align="left">Stromanschluss / kWh</td>
@@ -62,11 +62,11 @@
         </tr>
         <tr>
           <td align="left">Besucher, pro Person und Tag</td>
-          <td align="right">1,50 €</td>
+          <td align="right">3,00 €</td>
         </tr>
         <tr>
           <td align="left">Besucher, pro Kind (2-12 Jahre) und Tag</td>
-          <td align="right">1,00 €</td>
+          <td align="right">2,00 €</td>
         </tr>
       </tbody>
     </table>
@@ -115,7 +115,7 @@
       <tbody>
         <tr>
           <td align="left">Pro Rute und Tag</td>
-          <td align="right">3,00 €</td>
+          <td align="right">6,00 €</td>
         </tr>
         <tr>
           <td align="left">(nur in Verbindung mit mindestens einer Übernachtung möglich)</td>
