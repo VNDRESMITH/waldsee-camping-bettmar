@@ -95,12 +95,12 @@
         <tr>
           <td align="left">Besucher</td>
           <td align="left">pro Person / Kind (2-12 Jahre)</td>
-          <td align="right">1,50 € / 1,00 €</td>
+          <td align="right">3,00 € / 2,00 €</td>
         </tr>
         <tr>
           <td align="left">Übernachtungsgäste</td>
           <td align="left">pro Person / Kind (2-12 Jahre)</td>
-          <td align="right">4,30 € / 3,10 €</td>
+          <td align="right">4,50 € / 3,50 €</td>
         </tr>
       </tbody>
     </table>
