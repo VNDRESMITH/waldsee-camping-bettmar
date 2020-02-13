@@ -32,7 +32,7 @@
             <font-awesome class="p-1 text-green-300" :icon="['fas', 'phone']" size="2x"/>
             <a :href="'tel:'+site_infos.phone">{{site_infos.phone}}</a>
           </li>
-          <li class="flex items-center tracking-widest uppercase">
+          <li class="flex items-center tracking-widest uppercase text-sm">
             <font-awesome class="p-1 text-green-300" :icon="['fas', 'envelope']" size="2x"/>
             <!-- <a :href="'mailto:'+site_infos.email"> --> {{site_infos.email}} <!-- </a> -->
           </li>
