@@ -34,7 +34,7 @@
           </li>
           <li class="flex items-center tracking-widest uppercase">
             <font-awesome class="p-1 text-green-300" :icon="['fas', 'envelope']" size="2x"/>
-            <a :href="'mailto:'+site_infos.email">{{site_infos.email}}</a>
+            <!-- <a :href="'mailto:'+site_infos.email"> --> {{site_infos.email}} <!-- </a> -->
           </li>
           <li class="flex items-center tracking-widest uppercase font-bold">
             <font-awesome class="p-1 text-green-300" :icon="['fas', 'clock']" size="2x"/>
