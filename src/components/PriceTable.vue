@@ -41,13 +41,13 @@
           <td align="right">2,00 €</td>
         </tr>
         <tr>
-          <td align="left">Stromanschluss / kWh</td>
-          <td align="right">2,00 € / 0,50 €</td>
+          <td align="left">Stromanschluss / pro kWh</td>
+          <td align="right">2,00 € / 0,60 €</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td align="left">Stromsäulen / kWh</td>
           <td align="right">0,50 €</td>
-        </tr>
+        </tr>-->
         <tr>
           <td align="left">
             &nbsp;
