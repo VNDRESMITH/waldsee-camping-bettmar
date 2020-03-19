@@ -42,7 +42,7 @@
         </tr>
         <tr>
           <td align="left">Stromanschluss / pro kWh</td>
-          <td align="right">2,00 € / 0,60 €</td>
+          <td align="right">2,00 € / 0,70 €</td>
         </tr>
         <!-- <tr>
           <td align="left">Stromsäulen / kWh</td>
@@ -51,13 +51,11 @@
         <tr>
           <td align="left">
             &nbsp;
-            <br />ab 5 Übernachtungen
-            <br />&nbsp;
+            <br />ab 5 Übernachtungen <br />&nbsp;
           </td>
           <td align="right">
             &nbsp;
-            <br />10% Rabatt
-            <br />&nbsp;
+            <br />10% Rabatt <br />&nbsp;
           </td>
         </tr>
         <tr>
@@ -118,7 +116,9 @@
           <td align="right">6,00 €</td>
         </tr>
         <tr>
-          <td align="left">(nur in Verbindung mit mindestens einer Übernachtung möglich)</td>
+          <td align="left">
+            (nur in Verbindung mit mindestens einer Übernachtung möglich)
+          </td>
         </tr>
       </tbody>
     </table>
@@ -129,5 +129,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>
